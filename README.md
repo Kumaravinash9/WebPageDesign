@@ -3,4 +3,4 @@
 
 ## LOGIN PAGE
 
-![design-1](https://user-images.githubusercontent.com/64456168/96351027-8415d080-10d6-11eb-972e-13f108160a1d.JPG
+![design-1](https://user-images.githubusercontent.com/64456168/96351027-8415d080-10d6-11eb-972e-13f108160a1d.JPG)
