@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a891aa92f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+    *
+    {
+      box-sizing: border-box;
+      margin:0px;
+      padding:0px;
+
+    }
+    body
+    {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(222, 222, 222,.3);
+    
+    }
+    
+    section
+    {
+
+      width:27vw;
+      height:40vh;
+      min-width:380px;
+      min-height:450px;
+      margin-top: 5%;
+      padding:10px;
+     
+
+    }
+    
+    .uppersection
+    {
+      width:100%;
+      border: 1px solid black;
+      height:82%;
+      background-color: white;
+      border: .1px solid rgba(222, 222, 222,.8);
+
+    }
+    .lowersection
+    {
+      margin-top:3%;
+      width:100%;
+      height:15%;
+      border: 1px solid black;
+      background-color: white;
+      border: .1px solid rgba(222, 222, 222,.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .instagram
+    {
+      text-align: center;
+      margin: 4% 0%;
+      font-size: 3rem;
+      font-family: "Dancing Script";
+      font-style: italic;
+
+    }
+    form
+    {
+        width: 100%;margin-top: 8%;
+    
+    }
+    input
+    {
+        width: 70%;
+        height:36px;
+        margin:3px 15%;
+        padding:2px 0px 2px 5px;
+        font-size: .75rem;
+        border: .1px solid rgba(222, 222, 222,.8);
+        outline: none;
+        background-color: rgba(222, 222, 222,.3);
+        border-radius: .1rem;
+    }
+   
+    .button
+    {
+
+        width: 70%;
+        height:30px;
+        margin:10px 15% 5px 15%;
+        border-radius: .25rem;
+        border: none;
+        background-color: #0095f6;
+        color: white;
+        cursor: pointer;
+    
+        
+
+    }
+   
+    .OrSection
+    {
+        width: 70%;
+        margin:10px 15% 5px 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .8rem;
+        font-weight: 600;
+        color: rgba(222, 222, 222,.8);
+        text-shadow: .3px .3px black;
+    }
+    hr{
+        width: 40%;
+        border: .01px solid rgba(172, 172, 172, 0.8);
+    }
+    .lowersection>div{
+     
+     font-weight: 300;
+     font-family: "PT Sans";
+     font-size: 1rem;
+    
+       
+    }
+    .lowersection>div a{
+        font-weight: 500;
+        font-family:"Arial";
+        color:#0095f6;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: .96rem;
+
+    }
+    .facebook-login{
+    text-align: center;
+    margin-top:3%;
+   
+    font-weight: 500;
+    }
+    .fab{
+      font-size: 1.4rem;
+      margin-right: 5px;
+      opacity: .96;
+      
+
+    }
+     .facebook-login>a{
+       text-decoration: none;
+       text-shadow: .1px .1px black;
+       opacity: .96;
+       color: rgb(33, 76, 133);
+      
+     }
+     .forget
+     {
+       margin-top: 4.5% ;
+       text-align: center;
+
+     }
+     .forget>a{
+       text-decoration: none;
+       font-size: .8rem;
+       color: rgb(33, 76, 133);
+       font-weight: 300;
+       text-shadow: .1px .1px black
+     }
+    </style>
+</head>
+<body>
+
+    <section>
+    <div class="uppersection">
+          <div class="instagram">Instagram</div>
+       <form>
+           <input  type="text" placeholder="Phone number,usrename or email" required>
+           <input  type="password" placeholder="Password" required>
+           <button class="button"  >Log In</button>
+       </form>
+     <div class="OrSection">
+         <hr>
+         <span>OR</span>
+         <hr>
+
+     </div>
+
+     <div class="facebook-login"><a href="#"><i class="fab fa-facebook-square"></i>Log in with Facebook</a></div>
+     <div class="forget"><a href="#">Forget Password?</a></div>
+
+    </div>
+    
+    <div class="lowersection">
+            <div>
+                Don't have an account? <a href="#">Sign up</a>
+            </div>
+
+
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
